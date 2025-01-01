@@ -11,5 +11,10 @@ namespace CopilotTest
         {
             Console.WriteLine(message);
         }
+
+        private void Run()
+        {
+            Console.WriteLine("Engine is running");
+        }
     }
 }
